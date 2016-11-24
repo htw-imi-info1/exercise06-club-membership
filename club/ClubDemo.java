@@ -1,34 +1,43 @@
 
 /**
- * Provide a demonstration of the Club and Membership
- * classes.
+ * This class eases testing your Club
+ * Membership project - you can use it 
+ * instead of interactively creating
+ * everything by hand using the BlueJ
+ * interface. 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * You don't need to use it if you don't
+ * want to.
+ * 
+ * @author Barne Kleinen 
  */
 public class ClubDemo
 {
-    // instance variables - replace the example below with your own
     private Club club;
 
-    /**
-     * Constructor for objects of class ClubDemo
-     */
     public ClubDemo()
     {
         club = new Club();
     }
-
+    /**
+      * use this getter to get an
+      * instance of club to call
+      * methods/the inspector in BlueJ.
+      */
+    public Club getClub(){
+        return club;
+    }
     /**
      * Add some members to the club, and then
      * show how many there are.
-     * Further example calls could be added if more functionality
+     * Further example calls (or whole methods)
+     * could be added if more functionality
      * is added to the Club class.
      */
-    public void demo()
+    public void testNumberOfMembers()
     {
-        club.join(new Membership("David", 2, 2004));
-        club.join(new Membership("Michael", 1, 2004));
+        club.join(new Membership("David", 2, 2016));
+        club.join(new Membership("Michael", 1, 2015));
         System.out.println("The club has " +
                            club.numberOfMembers() +
                            " members.");
