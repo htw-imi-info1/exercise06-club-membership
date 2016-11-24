@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.params=
-comment0.target=ClubDemo()
+comment0.target=ClubTester()
 comment1.params=
 comment1.target=Club\ getClub()
 comment1.text=\n\ use\ this\ getter\ to\ get\ an\n\ instance\ of\ club\ to\ call\n\ methods/the\ inspector\ in\ BlueJ.\n

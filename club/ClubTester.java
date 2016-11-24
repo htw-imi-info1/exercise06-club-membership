@@ -11,11 +11,11 @@
  * 
  * @author Barne Kleinen 
  */
-public class ClubDemo
+public class ClubTester
 {
     private Club club;
 
-    public ClubDemo()
+    public ClubTester()
     {
         club = new Club();
     }
